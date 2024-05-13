@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="main" prefHeight="441.0" prefWidth="268.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalculadoraController">
+
+	<children>
+		<ImageView fitHeight="418.0" fitWidth="268.0" layoutY="23.0" pickOnBounds="true">
+			<image>
+				<Image url="@Background.jpg" />
+			</image>
+		</ImageView>
+		<Button fx:id="DIGIT0" layoutX="14.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="96.0" onKeyPressed="#pulTecla" focusTraversable="true" stylesheets="@application.css" text="0" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="COMMA" layoutX="110.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="," textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="PLUS" layoutX="158.0" layoutY="288.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="+" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="DIGIT2" layoutX="62.0" layoutY="333.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="2" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="DIGIT3" layoutX="110.0" layoutY="333.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="3" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="MINUS" layoutX="158.0" layoutY="243.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="-" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="DIGIT4" layoutX="14.0" layoutY="288.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="4" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="DIGIT5" layoutX="62.0" layoutY="288.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="5" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="DIGIT6" layoutX="110.0" layoutY="288.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="6" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="PER" layoutX="206.0" layoutY="288.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="*" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="DIGIT7" layoutX="14.0" layoutY="243.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="7" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="DIGIT8" layoutX="62.0" layoutY="243.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="8" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="DIGIT9" layoutX="110.0" layoutY="243.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="9" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="BARRA" layoutX="206.0" layoutY="243.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="/" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="FLECHA" layoutX="14.0" layoutY="198.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="&lt;-" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="CLEARError" layoutX="62.0" layoutY="198.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="CE" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="CLEAR" layoutX="206.0" layoutY="333.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="48.0" stylesheets="@application.css" text="C" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="SIGNS" layoutX="110.0" layoutY="198.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="+/-" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="EQUAL" layoutX="158.0" layoutY="333.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="48.0" stylesheets="@application.css" text="=" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="OneX" layoutX="110.0" layoutY="153.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="1/x" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="PORCENTAGE" layoutX="206.0" layoutY="198.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="\%" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="RAIZ" layoutX="158.0" layoutY="198.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="√" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="BUTTON_MC" layoutX="14.0" layoutY="108.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="96.0" stylesheets="@application.css" text="MC" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="BUTTON_MR" layoutX="110.0" layoutY="108.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="144.0" stylesheets="@application.css" text="MR" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="BUTTON_MS" layoutX="158.0" layoutY="153.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="96.0" stylesheets="@application.css" text="MS" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="BUTTON_PLUS_M" layoutX="62.0" layoutY="153.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="M+" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="BUTTON_MINUS_M" layoutX="14.0" layoutY="153.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="M-" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<TextField id="textField" fx:id="barra_superior" alignment="CENTER_RIGHT" editable="false" layoutX="14.0" layoutY="40.0" prefHeight="60.0" prefWidth="239.0">
+			<font>
+				<Font name="Lato Heavy" size="24.0" />
+			</font>
+		</TextField>
+		<Button fx:id="DIGIT1" layoutX="14.0" layoutY="333.0" onKeyPressed="#pulTecla" focusTraversable="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" stylesheets="@application.css" text="1" textAlignment="CENTER" textFill="#e80290" wrapText="true">
+			<font>
+				<Font name="Lato Heavy" size="13.0" />
+			</font>
+		</Button>
+		<ImageView disable="true" fitHeight="316.0" fitWidth="239.0" layoutX="14.0" layoutY="108.0" opacity="0.16" pickOnBounds="true">
+			<image>
+				<Image url="@barbiebuttonsBackground.jpg" />
+			</image>
+		</ImageView>
+		<ImageView disable="true" fitHeight="60.0" fitWidth="239.0" layoutX="14.0" layoutY="40.0" opacity="0.16" pickOnBounds="true">
+			<image>
+				<Image url="@BarbieBackgroundTop.jpg" />
+			</image>
+		</ImageView>
+		<MenuBar layoutX="0.0" layoutY="0.0" prefHeight="27.0" prefWidth="268.0">
+			<menus>
+				<Menu mnemonicParsing="false" text="Ver" fx:id="ver">
+					<items>
+						<MenuItem fx:id="menu_Historial" mnemonicParsing="false" text="Historial" />
+						<MenuItem fx:id="menu_Salir" mnemonicParsing="false" text="Salir" />
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Edición" fx:id="edicion">
+					<items>
+						<MenuItem fx:id="menu_Copiar" mnemonicParsing="false" text="Copiar" />
+						<MenuItem fx:id="menu_Pegar" mnemonicParsing="false" text="Pegar" />
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Ayuda" fx:id="ayuda">
+					<items>
+						<MenuItem fx:id="menu_Ayuda" mnemonicParsing="false" text="Ver la Ayuda" />
+						<MenuItem fx:id="menu_AcercaDe" mnemonicParsing="false" text="Acerca de Calculadora" />
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Idioma" fx:id="idiomas">
+					<items>
+						<MenuItem fx:id="menu_ES" mnemonicParsing="false" text="Español" />
+						<MenuItem fx:id="menu_EN" mnemonicParsing="false" text="Ingles" />
+						<MenuItem fx:id="menu_CA" mnemonicParsing="false" text="Valenciano" />
+					</items>
+				</Menu>
+			</menus>
+		</MenuBar>
+	</children>
+</AnchorPane>

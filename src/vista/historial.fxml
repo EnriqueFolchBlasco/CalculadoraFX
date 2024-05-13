@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="main" fx:id="menu_AcercaDe" prefHeight="501.0" prefWidth="771.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HistorialController">
+
+	<children>
+      <ImageView fitHeight="501.0" fitWidth="378.0" pickOnBounds="true">
+         <image>
+            <Image url="@Background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="501.0" fitWidth="378.0" layoutX="367.0" pickOnBounds="true">
+         <image>
+            <Image url="@Background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="501.0" fitWidth="251.0" layoutX="556.0" pickOnBounds="true">
+         <image>
+            <Image url="@Background.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="historial_area" editable="false" layoutX="44.0" layoutY="119.0" prefHeight="346.0" prefWidth="731.0" />
+      <ImageView fitHeight="95.0" fitWidth="329.0" layoutX="44.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@historial.png" />
+         </image>
+      </ImageView>
+	</children>
+</AnchorPane>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="main" prefHeight="582.0" prefWidth="503.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AyudaController">
+
+	<children>
+		<ImageView fitHeight="591.0" fitWidth="268.0" pickOnBounds="true">
+			<image>
+				<Image url="@Background.jpg" />
+			</image>
+		</ImageView>
+      <ImageView fitHeight="591.0" fitWidth="268.0" layoutX="235.0" pickOnBounds="true">
+         <image>
+            <Image url="@Background.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="label_hora" layoutX="198.0" layoutY="523.0" text="Time" textFill="WHITE">
+         <font>
+            <Font name="Noto Mono" size="32.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="170.0" layoutX="39.0" layoutY="338.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="425.0" />
+      <Text fill="#dd0fb8" layoutX="50.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="num1: " wrappingWidth="75.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#dd0fb8" layoutX="50.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="num2: " wrappingWidth="75.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#dd0fb8" layoutX="51.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="numActual: " wrappingWidth="148.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#dd0fb8" layoutX="51.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="numMemoria: " wrappingWidth="148.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#dd0fb8" layoutX="51.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="operacion:" wrappingWidth="148.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="192.0" layoutX="39.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="425.0" />
+      <ImageView fitHeight="113.0" fitWidth="268.0" layoutX="111.0" layoutY="8.0" pickOnBounds="true">
+         <image>
+            <Image url="@Acercade.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="texto_tocho" fill="#dd0fb8" layoutX="50.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="403.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Text>
+      <Text fx:id="num1" fill="#dd0fb8" layoutX="206.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="75.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="num2" fill="#dd0fb8" layoutX="206.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="75.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="numActual" fill="#dd0fb8" layoutX="207.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="148.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="numMemoria" fill="#dd0fb8" layoutX="207.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="148.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="operacion" fill="#dd0fb8" layoutX="207.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="148.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="icona" fitHeight="390.0" fitWidth="268.0" layoutX="118.0" layoutY="101.0" opacity="0.0" pickOnBounds="true">
+         <image>
+            <Image url="@icona.jpg" />
+         </image>
+      </ImageView>
+	</children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="main" fx:id="menu_AcercaDe" prefHeight="236.0" prefWidth="495.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AcercaDeController">
+
+	<children>
+		<ImageView fitHeight="265.0" fitWidth="268.0" pickOnBounds="true">
+			<image>
+				<Image url="@Background.jpg" />
+			</image>
+		</ImageView>
+      <ImageView fitHeight="265.0" fitWidth="268.0" layoutX="235.0" pickOnBounds="true">
+         <image>
+            <Image url="@Background.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="44.0" layoutY="33.0" prefHeight="53.0" prefWidth="415.0" text="Pues es una calculadora que la ha fet Quique,&#10;per cert, apetix un chiste?">
+         <font>
+            <Font name="Source Code Pro Black Italic" size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="text_area" editable="false" layoutX="44.0" layoutY="123.0" prefHeight="107.0" prefWidth="415.0" />
+	</children>
+</AnchorPane>

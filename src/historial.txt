@@ -1,0 +1,4 @@
+[ Lunes, 29 de abril de 2024, 11:39:44 ] Operacion: 9.0 - 6.0 = 9.0
+[ Lunes, 29 de abril de 2024, 11:39:51 ] Operacion: 366.0 - 8.0 = 366.0
+[ Lunes, 29 de abril de 2024, 11:39:58 ] Operacion: 6.0 - 8.0 = 6.0
+La inversa de -9.202da: -0.10867202782003912

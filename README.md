@@ -26,6 +26,6 @@ This calculator has features such as different language options, error messages 
 
 <h4>As a bonus, theres a teenegaer easter egg (teenager because won't understand it if you aren't a kid born around 2000-2010 and were related to youtube), when you introduce 777 a pop up image will appear in the help tab with transparency gpoing from 0 to 1 non-stop.</h4>
 
-https://github.com/user-attachments/assets/ab35be9a-9f07-4bd0-98cb-ffab32f9ada6
+https://github.com/user-attachments/assets/61aea594-4f2f-4abf-9829-f814299ea9fc
 
 

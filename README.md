@@ -4,7 +4,7 @@ April, 2024, 1 DAM, task about doing a calculator which I've added a Barbie them
 > [!WARNING]  
 > This app has bugs and is not finished to it's full version, might end it someday.
 
-<h2>Disclaimer: This is my first app in java since I started learning it. it's not perfect</h2>
+<h2>Disclaimer: This is my first app in java since I started learning it, it's not perfect</h2>
 
 This calculator has features such as different language options, error messages if you try to divide with 0, a history of operations (might not function correctly), an about and a help pop ups.
 

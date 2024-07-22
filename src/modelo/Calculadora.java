@@ -137,7 +137,7 @@ public class Calculadora {
 				default:
 					break;
 				}
-				this.historial.add("[ " + hora() +" ] Operacion: "+num1+ " " +operacion+ " " +num2+ " = " +num1);
+				this.historial.add("[ " + hora() +" ] Operacion: "+num1+ " " +operacion+ " " +num2+ " = " +resultado);
 		
 			}
 			

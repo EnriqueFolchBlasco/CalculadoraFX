@@ -1,34 +1,61 @@
-# CalculadoraFX
-April, 2024, 1 DAM, task about doing a calculator which I've added a Barbie theme to make it less normal.
+# CalculadoraFX  
+**Date**: April 2024  
+**Project**: 1 DAM Task  
+**Description**: A project involving creating a calculator, enhanced with a Barbie theme to make it unique.
 
 > [!WARNING]  
-> This app has bugs and is not finished to it's full version, might end it someday.
+> **Status**: This app contains bugs and is not a fully completed version. It might be finished someday.  
 
-<h2>Disclaimer: This is my first app in java since I started learning it, it's not perfect</h2>
+## Disclaimer  
+This is my first app in Java since I started learning it. It's not perfect.
 
-This calculator has features such as different language options, error messages if you try to divide with 0, a history of operations (might not function correctly), an about and a help pop ups.
+### Features  
+This calculator includes the following features:  
+- **Multilingual Support**: Options for different languages.  
+- **Error Handling**: Displays error messages when dividing by zero.  
+- **History of Operations**: Saves operations with timestamps (may not function correctly).  
+- **About & Help Pop-Ups**: Includes informative tabs.
 
 > [!NOTE]  
-> This app also uses keylisteners in order to use the keyboard or the mouse with the buttons.
+> This app also supports **KeyListeners**, allowing you to use either the keyboard or the mouse to interact with buttons.
 
-<h4>The basic interface of the calculator, all buttons work at first, combinations may break it tho.</h4>
+---
+
+#### Basic Interface  
+The basic interface of the calculator. All buttons work initially, but certain combinations may cause issues.  
 
 ![Calculadora1](https://github.com/user-attachments/assets/4b3d388f-5826-4996-a8ef-fa71e3999282)
 
-<h4>Help part has some info of what each key do, also I have  made it so it shows like an admin panel how more or less the calculations work in "live". Plus the hour just for fun and try new things</h4>
+---
+
+#### Help Tab  
+The help section includes:  
+- Information about each key’s function.  
+- An admin panel-like display showing how calculations work in real time.  
+- A fun addition: the current time, added as an experiment.  
 
 ![Ayuda](https://github.com/user-attachments/assets/7bf3020f-fb03-4730-a956-4a504ef9abd1)
 
-<h4>Also an about tab part, that is just some texts, in the second one random jokes about programming appear.</h4>
+---
+
+#### About Tab  
+The about tab contains:  
+- General information about the app.  
+- Random programming jokes in the second section.  
 
 ![AcerdaDe](https://github.com/user-attachments/assets/19c7469d-e881-4124-928b-911b6e53cc7c)
 
-<h4>A history tab that saves operations with the time they are made. (clears after closing the app, kinda fixeable but this was my first app and my knowledge was not that big)</h4>
+---
+
+#### History Tab  
+The history tab saves operations along with their timestamps.  
+> **Note**: The history clears after the app is closed. This is fixable, but since this was my first app, my knowledge at the time was limited.  
 
 ![Historial](https://github.com/user-attachments/assets/dcba8d64-9696-40eb-9a9d-06b77d2b3013)
 
-<h4>As a bonus, theres a teenegaer easter egg (teenager because won't understand it if you aren't a kid born around 2000-2010 and were related to youtube), when you introduce 777 a pop up image will appear in the help tab with transparency gpoing from 0 to 1 non-stop.</h4>
+---
 
-https://github.com/user-attachments/assets/61aea594-4f2f-4abf-9829-f814299ea9fc
+#### Easter Egg  
+As a bonus, there's a **teenager-themed Easter egg**. When you input `777`, a pop-up image will appear in the help tab with its transparency oscillating continuously.
 
-
+![Easter Egg](https://github.com/user-attachments/assets/61aea594-4f2f-4abf-9829-f814299ea9fc)

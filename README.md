@@ -58,4 +58,5 @@ The history tab saves operations along with their timestamps.
 #### Easter Egg  
 As a bonus, there's a **teenager-themed Easter egg**. When you input `777`, a pop-up image will appear in the help tab with its transparency oscillating continuously.
 
-![Easter Egg](https://github.com/user-attachments/assets/61aea594-4f2f-4abf-9829-f814299ea9fc)
+https://github.com/user-attachments/assets/61aea594-4f2f-4abf-9829-f814299ea9fc
+

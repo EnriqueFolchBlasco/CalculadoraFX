@@ -1,5 +1,5 @@
 # CalculadoraFX
-April, 2024, 1 DAM, task about doing a calculator which I've added a Barbie theme. In case you ask why barbie, why not? lol, long live the memes.
+April, 2024, 1 DAM, task about doing a calculator which I've added a Barbie theme to make it less normal.
 
 > [!WARNING]  
 > This app has bugs and is not finished to it's full version, might end it someday.
